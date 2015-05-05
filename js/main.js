@@ -32,6 +32,19 @@ $(function() {
 		$('.step_container').removeAttr('class').addClass(className).data('step', stepNum).data('offer', offerNum);
 		$('.step_content').hide();
 		$('.step_' + offerNum + '_' + stepNum).show();
-		$('.lightbox_wrapper').fadeIn('fast');
+
+		$('.lightbox_inner').removeAttr('style');
+
+		$('.lightbox_wrapper').fadeIn('fast', function() {
+			var winHeight = $(window).height();
+
+			if ( $('.lightbox_content').outerHeight() > winHeight ) {
+				var maxHeight =  winHeight - 28 - 70;
+				$('.lightbox_inner').css({
+					'max-height': maxHeight + 'px',
+					'overflow-y': 'scroll'
+				});
+			}
+		});
 	};
 });
