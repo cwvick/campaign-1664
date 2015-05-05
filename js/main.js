@@ -30,6 +30,8 @@ $(function() {
 		var className = 'step_container offer_' + offerNum + ' step_' + stepNum;
 
 		$('.step_container').removeAttr('class').addClass(className).data('step', stepNum).data('offer', offerNum);
+		$('.step_content').hide();
+		$('.step_' + offerNum + '_' + stepNum).show();
 		$('.lightbox_wrapper').fadeIn('fast');
 	};
 });

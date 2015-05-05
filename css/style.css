@@ -368,12 +368,12 @@ span.icon_num_2 {
 .step_content, .step_container.offer_2.step_1 > .step_number {
   display: none;
 }
-.step_container.offer_1.step_1 .step_1_1, .step_container.offer_1.step_2 .step_1_2, .step_container.offer_1.step_3 .step_1_3, .step_container.offer_1.step_4 .step_1_4 {
+/*.step_container.offer_1.step_1 .step_1_1, .step_container.offer_1.step_2 .step_1_2, .step_container.offer_1.step_3 .step_1_3, .step_container.offer_1.step_4 .step_1_4 {
   display: block;
 }
 .step_container.offer_2.step_1 .step_2_1, .step_container.offer_2.step_2 .step_2_2, .step_container.offer_2.step_3 .step_2_3, .step_container.offer_2.step_4 .step_2_4 {
   display: block;
-}
+}*/
 .icon_like {
 	width: 115px;
 	height: 105px;
