@@ -19,10 +19,11 @@ $(function() {
 		}
 	});
 
-	$(document).on('click', '.lightbox_wrapper', function(event) {
+	$(document).on('click', 'body', function(event) {
 		event.preventDefault();
+		alert(event.target.className);
 		if ( $(event.target).is('.lightbox_container') ) {
-			$(this).hide();
+			$('.lightbox_wrapper').hide();
 		}
 	});
 
