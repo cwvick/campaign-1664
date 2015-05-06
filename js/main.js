@@ -19,8 +19,8 @@ $(function() {
 		}
 	});
 
-	$(document).on('click', 'body', function(event) {
-		// event.preventDefault();
+	$(document).on('mouseup', 'body', function(event) {
+		event.preventDefault();
 		alert(event.target.className);
 		if ( $(event.target).is('.lightbox_container') ) {
 			$('.lightbox_wrapper').hide();
