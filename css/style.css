@@ -131,16 +131,26 @@ ul {
 .store_list {
   float: left;
   width: 240px;
-  overflow: hidden;
+  min-height: 720px;
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
+  position: relative;
+  margin-top: 26px;
 }
 .store_list li {
-  font-size: 1.2em;
+  font-size: 1.05em;
   letter-spacing: 1px;
 }
 .store_list li+li {
-  padding-top: 20px;
+  padding-top: 10px;
+}
+.store_list li.label {
+  position: absolute;
+  top: -31px;
+  font-size: 1.2em;
+}
+.store_list li.first {
+  padding-top: 0;
 }
 .store_list.last {
   border: 0;
