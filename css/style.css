@@ -21,10 +21,6 @@ ul {
 .floatRight {
   float: right;
 }
-#container {
-  /*width: 900px;
-	margin: 0 auto;*/
-}
 .logo_1664 {
   text-align: center;
 }
@@ -136,7 +132,6 @@ ul {
   float: left;
   width: 240px;
   overflow: hidden;
-  /*background: url(../images/list_dot.png) right repeat-y;*/
   border-right: 1px solid #fff;
   padding: 0 2px 0 12px;
 }
@@ -148,7 +143,6 @@ ul {
   padding-top: 20px;
 }
 .store_list.last {
-  /*background: none;*/
   border: 0;
   width: 241px;
 }
@@ -158,11 +152,6 @@ ul {
 .partner_section + .partner_section .partner_title .text {
   padding: 0 0 0 15px;
 }
-/*.coop_list {
-  background: url(../images/list_dot.png) center no-repeat;
-  height: 22px;
-  line-height: 22px;
-}*/
 .coop_list li {
   font-size: 1.3em;
   line-height: 1.7em;
@@ -197,7 +186,6 @@ ul {
   bottom: 0;
 }
 /*lightbox*/
-
 .lightbox_wrapper {
   position: absolute;
   width: 100%;
@@ -360,13 +348,14 @@ span.icon_num_2 {
 }
 .share_wrapper .share_box {
   width: 178px;
-  height: 178px;
+  height: 115px;
   overflow: hidden;
   border: 1px solid #fff;
   float: left;
-  line-height: 178px;
+  line-height: 25px;
   font-size: 1.15em;
   background: url(../images/lightbox_sprites.png) 0 -382px no-repeat;
+  padding-top: 63px;
 }
 .share_wrapper .share_box + .share_box {
   line-height: 25px;
@@ -391,12 +380,6 @@ span.icon_num_2 {
 .step_content, .step_container.offer_2.step_1 > .step_number {
   display: none;
 }
-/*.step_container.offer_1.step_1 .step_1_1, .step_container.offer_1.step_2 .step_1_2, .step_container.offer_1.step_3 .step_1_3, .step_container.offer_1.step_4 .step_1_4 {
-  display: block;
-}
-.step_container.offer_2.step_1 .step_2_1, .step_container.offer_2.step_2 .step_2_2, .step_container.offer_2.step_3 .step_2_3, .step_container.offer_2.step_4 .step_2_4 {
-  display: block;
-}*/
 .icon_like {
 	width: 115px;
 	height: 105px;
@@ -438,24 +421,18 @@ span.icon_num_2 {
   border-top: 0;
 }
 .tb_prize .prize_list .prize_photo {
-  height: 150px;
-  background: url(../images/img_prize_photo.png) center center no-repeat;
+  margin-top: 13px;
 }
 .tb_prize .prize_list .prize_name {
   line-height: 25px;
   font-size: 0.9em;
 }
-/*.tb_prize .prize_photo li {
-	float: left;
-	width: 128px;
-	height: 107px;
-	margin: 13px 0;
-	background: url(../images/lightbox_sprites.png) 0 -1004px no-repeat;
+.tb_prize .prize_list .prize_name div {
+  line-height: 20px;
 }
-.tb_prize .prize_photo li + li {
-	width: 127px;
-	border-left: 1px solid #fff;
-}*/
+.tb_prize .prize_list .prize_name div + div {
+  font-size: 0.85em;
+}
 .tb_header + div {
 	letter-spacing: 2px;
   padding: 0 15px;
